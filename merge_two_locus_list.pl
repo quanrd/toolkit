@@ -4,6 +4,7 @@ use warnings;
 my($list1,$list2) = @ARGV;
 my $usage = "USAGE:\nperl $0 <list1> <list2>\n";
 $usage .= "Lists are tab-limit and the first column is used to match two lists(locus ID or someting else).\n";
+$usage .= "A test.\n";
 
 die $usage unless(@ARGV == 2);
 
